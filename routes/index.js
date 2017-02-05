@@ -1,10 +1,13 @@
+/**
+ * Created by vakalapr on 2/5/17.
+ */
 var express = require('express');
 var router = express.Router();
-var path = __dirname + '/views/';
+var path = require('./views');
 
 /* GET home page. */
-router.get('/', function(req, res) {
-  res.sendFile( path + "index.html" );
+router.get('/contact', function(req, res) {
+  res.sendFile( path + "contact.html" );
 });
 
 module.exports = router;

@@ -3,9 +3,9 @@
  */
 var express = require('express');
 var router = express.Router();
-var path = __dirname + '/views/';
+var path = require('./views');
 
-/* GET home page. */
+/* GET Contact Us page. */
 router.get('/contact', function(req, res) {
     res.sendFile( path + "contact.html" );
 });
