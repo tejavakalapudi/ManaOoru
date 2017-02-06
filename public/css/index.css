@@ -14,3 +14,10 @@ body {
 .control-label {
     color: #ffffff;
 }
+
+.facebook>img {
+    height: 100%;
+    padding: 15px;
+    width: auto;
+    padding-right: 100px;
+}
